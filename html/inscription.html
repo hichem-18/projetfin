@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./../css/bootstrap.css">
+    <link rel="stylesheet" href="./../css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Inscription</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand a">Inscription</a>
+        <form class="form-inline">
+            
+            <button class="btn btn-outline-info my-2 my-sm-0 " type="submit"><a class="link" href="connexion.html">Connexion</a></button>
+
+        </form>
+      </nav>
+      <div class="container-fluid">
+
+<form class="mt-5" method="POST" action="./../php/inscription.php" >
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="inputEmail4 l">Nom</label>
+        <input type="text" class="form-control" id="inputnom4" name="nom">
+      </div>
+      <div class="form-group col-md-12">
+        <label for="inputPassword4 l">Prénom</label>
+        <input type="text" class="form-control" id="inputPrenom4" name="prenom">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputEmail4 l">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" name="email">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputPassword4 l">Password</label>
+        <input type="password" class="form-control" id="inputPassword4" name="password">
+      </div>
+      <div class="form-group col-md-12">
+        <label for="inputPassword4 l">Phone Number</label>
+        <input type="tel" class="form-control" id="inputPhone4" value="+216" maxlength="12" name="phone">
+      </div>
+    </div>
+
+   
+    
+         <button type="submit" class="btn btn-outline-info  float-right">S'incrire</button>
+
+        </div>
+      </div>
+      
+  </form>
+</div>
+</body>
+</html>
